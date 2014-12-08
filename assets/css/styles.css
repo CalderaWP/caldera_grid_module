@@ -1,0 +1,357 @@
+.caldera-grid-module-input-error,
+input.caldera-grid-module-input-error,
+select.caldera-grid-module-input-error,
+textarea.caldera-grid-module-input-error {
+  border: 1px solid #df8080 !important;
+  box-shadow: 0 0 2px #ff6060 !important;
+}
+h4 > small.description {
+  color: #7f7f7f;
+  font-style: italic;
+  font-weight: normal;
+}
+.caldera-grid-module-main-header {
+	background: none repeat scroll 0 0 #fff;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04), 8px 0 0 rgb(175, 175, 0) inset;
+	margin: -10px -20px 10px -22px;
+	padding: 0 0 8px 22px;
+	overflow: hidden;
+}
+.caldera-grid-module-sub-header {
+  background: none repeat scroll 0 0 #f8f8f8;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04), 8px 0 0 rgb(175, 175, 0) inset;
+  margin: -10px -20px 10px -22px;
+  padding: 0 0 0 8px;
+  overflow: hidden;
+}
+.caldera-grid-module-subline,
+.caldera-grid-module-version {
+  color: #9f9f9f;
+  font-size: 0.55em;
+  line-height: 0;
+}
+
+.caldera-grid-module-main-header h2 {
+	color: #4f4f4f;
+	font-size: 20px;
+	font-weight: 300;
+  float: left;
+}
+.caldera-grid-module-main-header .logo-icon{
+	color: rgb(175, 175, 0);
+  font-size: 72px;
+  margin: -18px 20px 0 -60px;
+  opacity: 0.2;
+  padding: 0 15px 0 0;
+}
+.caldera-grid-module-general-delete-link{
+  color: #a00;
+}
+.caldera-grid-module-general-delete-link:hover{
+  color: red;
+}
+
+.wrap .caldera-grid-module-main-header .add-new-h2{
+	font-size: 12px;
+	margin: 13px;
+	cursor: pointer;
+}
+.caldera-grid-module-main-header .add-new-h2:hover {
+	background: none repeat scroll 0 0 rgb(175, 175, 0);
+}
+
+.caldera-grid-module-main-header .caldera-grid-module-header-tabs {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.caldera-grid-module-sub-header .caldera-grid-module-sub-tabs {
+  margin: 0;
+  padding: 0;
+}
+
+.caldera-grid-module-main-header .caldera-grid-module-header-tabs > li{
+  float: left;
+}
+.caldera-grid-module-main-header .caldera-grid-module-header-tabs > li > a{
+  display: inline-block;
+  margin: 0 0 -15px;
+  padding: 16px 20px 20px;
+  text-decoration: none;
+  color:rgb(175, 175, 0);
+}
+.caldera-grid-module-main-header .caldera-grid-module-header-tabs > li > a:hover{
+  background-color: #efefef;
+}
+.caldera-grid-module-main-header .caldera-grid-module-header-tabs > li.active > a{
+  background-color: rgb(175, 175, 0);
+  color: #fff;
+}
+.caldera-grid-module-sub-header .caldera-grid-module-sub-tabs > li {
+  float: left;
+  margin: 0;
+}
+.caldera-grid-module-sub-header .caldera-grid-module-sub-tabs > li > a{
+  display: inline-block;
+  margin: 0;
+  padding: 6px 14px 8px;
+  text-decoration: none;
+  color:rgb(175, 175, 0);
+}
+
+.caldera-grid-module-sub-header .caldera-grid-module-sub-tabs > li > a:hover{
+  background-color: #efefef;
+}
+.caldera-grid-module-sub-header .caldera-grid-module-sub-tabs > li.active > a{
+  background-color: rgb(175, 175, 0);
+  color: #fff;
+}
+.caldera-grid-module-split-panel {
+  margin-left: 300px;
+}
+.caldera-grid-module-side-list {
+  float: left;
+  margin-left: -300px;
+  width: 280px;
+}
+.caldera-grid-module-side-list > label{
+	display: block;
+}
+.caldera-grid-module-side-list > select {
+	width: 100%;
+	margin-bottom: 2px;
+}
+
+.caldera-grid-module-footer-bar {
+  border-top: 1px solid #e6e6e6;
+  margin: 30px -20px 0 -22px;
+  padding: 20px;
+}
+
+.caldera-grid-module-main-list {
+  float: left;
+  min-height: 100px;
+  width: 550px;
+  position: relative;
+}
+
+.caldera-grid-module-config-group {
+  margin-bottom: 6px;
+}
+.caldera-grid-module-config-group > label {
+  display: inline-block;
+  margin: 6px 0 0;
+  vertical-align: top;
+  width: 180px;
+}
+/* groups wrappers */
+.caldera-grid-module-add-group-btn {
+  color: #777;
+  cursor: pointer;
+  float: left;
+  font-size: 1.5em;
+  width: 40px;
+}
+.caldera-grid-module-group-wrapper {
+  float: left;
+  margin-right: 12px;
+  width: 280px;
+}
+.caldera-grid-module-field-group {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  color: #555;
+  margin: 0 0 6px;
+  padding: 6px 12px;
+  position: relative;
+}
+.caldera-grid-module-field-item {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  color: #555;
+  margin: 0 0 6px;
+  overflow: hidden;
+  padding: 6px 0 6px 6px;
+  position: relative;
+}
+.caldera-grid-module-field-group-config {
+  background: none repeat scroll 0 0 rgb(248, 248, 248);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.18);
+  height: 122px;
+  margin: 6px 0;
+  overflow: hidden;
+  padding: 6px 6px 0;
+}
+.caldera-grid-module-field-config-wrapper {
+  float: left;
+  width: 550px;
+}
+
+.baldrick-modal-title .modal-label,
+.baldrick-modal-title .baldrick-modal-closer{
+  color: #fff;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.baldrick-modal-title .baldrick-modal-closer:hover {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+}
+.baldrick-modal-title .modal-label{
+  background-color: rgb(175, 175, 0);
+}
+
+/* Tags */
+.magic-tag-init {
+  margin: 4px 2px;
+  padding: 3px;
+  position: absolute;
+  right: 0;
+}
+.ui-autocomplete-category {
+  background: none repeat scroll 0 0 #cecece;
+  font-weight: bold;
+  padding: 3px 10px;
+}
+.ui-autocomplete {
+  border: 1px solid #cbcbcb;
+  max-height: 380px;
+  overflow: auto;
+}
+.caldera-grid-module-card-item {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04), 50px 0 0 #f8f8f8 inset;
+  box-sizing: border-box;
+  color: #555;
+  display: inline-block;
+  font-size: 13px;
+  min-height: 90px;
+  margin: 6px 6px 0 0;
+  overflow: hidden;
+  padding: 0 0 0 50px;
+  position: relative;
+  width: 517px;
+}
+.caldera-grid-module-card-sub-item {
+  background: none repeat scroll 0 0 #fcfcfc;
+  border: 1px solid #e5e5e5;
+  box-shadow: -39px 0 0 #f8f8f8 inset,-40px 0 0 #dfdfdf inset;
+  box-sizing: border-box;
+  color: #555;
+  font-size: 13px;
+  margin: 0 0 6px;
+  padding: 6px;
+  position: relative;
+}
+
+.caldera-grid-module-card-item .caldera-grid-module-card-icon {
+  float: left;
+  font-size: 95px;
+  height: 100%;
+  margin-left: -51px;
+  overflow: hidden;
+  padding: 0 1px;
+  text-indent: -40px;
+  width: 50px;
+  line-height: 84px;
+}
+.caldera-grid-module-card-item .caldera-grid-module-card-icon:before {
+  opacity: 0.2;
+}
+.caldera-grid-module-card-content {
+  box-sizing: padding-box;
+  border-left: 1px solid #dfdfdf;
+  padding: 6px 12px;
+  width: 100%;
+  min-height: 90px;
+}
+.caldera-grid-module-card-item .caldera-grid-module-card-content > h4{
+	margin: 0;
+}
+
+.caldera-grid-module-card-content input[type="text"] {
+  width: 100%;
+}
+.caldera-grid-module-card-content .description {
+  color: #8f8f8f;
+  font-size: 11px;
+}
+.caldera-grid-module-card-content .caldera-grid-module-card-actions {
+  padding: 0;
+}
+.caldera-grid-module-card-content .caldera-grid-module-card-actions .row-actions{
+	visibility: visible;
+}
+.caldera-grid-module-card-content .caldera-grid-module-card-actions .row-actions a{
+	text-decoration: none;
+}
+#caldera-grid-module-save-indicator.loading .spinner{
+  display: block;
+}
+
+
+
+
+
+
+.caldera-grid .row {
+  overflow: hidden;
+  padding-top: 6px;
+}
+
+.caldera-grid .row > div{
+  margin-bottom: 12px; 
+  /*transition: width 200ms;*/
+}
+.caldera-grid .row .row-toolbar {
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: -7px;
+  display: none;
+}
+.caldera-grid .row .dashicons {
+  font-size: 12px;
+  padding: 1px;
+  cursor: pointer;
+}
+.caldera-grid .row .row-toolbar .dashicons,
+.caldera-grid .row .column-resize-handle .dashicons{
+  background: none repeat scroll 0 0 #f1f1f1;
+  border-radius: 51px;
+  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2) inset;
+  line-height: 21px;
+  margin: 0 -7px;
+}
+.caldera-grid .row .column-resize-handle .dashicons-minus{
+  margin-top: -6px;
+}
+.caldera-grid .column-resize-handle {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+  top: 0;
+  cursor: ew-resize;
+  height: 100%;
+  left: 0;
+  margin-left: -3px;
+  position: absolute;
+  width: 6px;
+  display: none;
+  z-index: 999999;
+}
+
+.caldera-grid .row:hover .row-toolbar,
+.caldera-grid .row:hover .column-resize-handle{
+  display: block;
+}
+.caldera-grid .row .col-xs-1 .row-toolbar,
+.caldera-grid .row:hover > div:first-child > div:first-child{
+  display: none;
+}
+.caldera-grid .column-body{
+  background-color: #fff;
+  padding: 12px 22px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.14);
+  min-height: 80px;
+}
